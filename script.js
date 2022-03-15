@@ -22,6 +22,6 @@ function Converter() {
         let remimbiValor = 0.81
         let resultadoRemimbi = valor / remimbiValor
         let convert = document.getElementById('valorConvertido')
-        convert.innerHTML = `Seu valor em Euro e ${resultadoRemimbi.toFixed(2)}`
+        convert.innerHTML = `Seu valor em Remimbi e ${resultadoRemimbi.toFixed(2)}`
     }
 }
